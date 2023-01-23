@@ -1,0 +1,15 @@
+{
+  "name": "basic-cucumber-project",
+  "version": "1.0.0",
+  "description": "this is basic cucumber project",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "cucumber-js",
+    "test": "cucumber-js --tags @order"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.10.0"
+  }
+}
